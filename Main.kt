@@ -13,8 +13,8 @@ fun main(args: Array<String>) {
     division()
 
 //  Selection Sort Array
-    val sa = SelectionSort()
-    println("Sorted array: " + sa.selectionSort())
+    val ss = SelectionSort()
+    println("Sorted array: " + ss.selectionSort())
 
     division()
 
@@ -22,6 +22,12 @@ fun main(args: Array<String>) {
     val r = Recursion()
     print("Sequence: "); r.countdown(10)
     println("factorial: " + r.factorial(5))
+
+    division()
+
+//  Quick Sort
+    val qs = QuickSort()
+    println(qs.quickSort(listOf(10, 5, 2, 3)))
 
     division()
 }
