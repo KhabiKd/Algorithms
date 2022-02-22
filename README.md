@@ -7,3 +7,5 @@
 2) Selection Sort.
    The essence of the algorithm is as follows: first, create a function that returns the index of the smallest element in the array (we will use it in the sort function itself).
 Sorting function: Each time we go through the list and look for the minimum (maximum, depending on the task) element and write it to a new list. At the same time, we remove this element from the old list. Selection sort has an easy algorithm, but a long time (increasing function of n^2 operations)
+
+3) Recursion. Recursion function - a function that calls itself. Recursion allows the programmer to save time, that is, he does not have to write cycles. But there are cases when, due to recursion, the stack overflows or take up a lot of memory. Then you need to write cycles instead of recursion.
