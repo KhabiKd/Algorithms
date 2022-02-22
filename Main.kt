@@ -17,4 +17,11 @@ fun main(args: Array<String>) {
     println("Sorted array: " + sa.selectionSort())
 
     division()
+
+//  Recursion
+    val r = Recursion()
+    print("Sequence: "); r.countdown(10)
+    println("factorial: " + r.factorial(5))
+
+    division()
 }
