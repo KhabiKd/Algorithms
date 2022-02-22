@@ -9,3 +9,5 @@
 Sorting function: Each time we go through the list and look for the minimum (maximum, depending on the task) element and write it to a new list. At the same time, we remove this element from the old list. Selection sort has an easy algorithm, but a long time (increasing function of n^2 operations)
 
 3) Recursion. Recursion function - a function that calls itself. Recursion allows the programmer to save time, that is, he does not have to write cycles. But there are cases when, due to recursion, the stack overflows or take up a lot of memory. Then you need to write cycles instead of recursion.
+
+4) Quick Sort. Significantly faster than the selective sort algorithm. The essence of the algorithm: is based on recursion. The base case is an empty list or a list with one element, since they are already sorted. Next, the pivot element of the list is selected. And on the left side of it is a subarray with smaller elements, and on the right side with large ones. For these subarrays, quicksort is again used 
