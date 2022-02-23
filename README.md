@@ -11,3 +11,5 @@ Sorting function: Each time we go through the list and look for the minimum (max
 3) Recursion. Recursion function - a function that calls itself. Recursion allows the programmer to save time, that is, he does not have to write cycles. But there are cases when, due to recursion, the stack overflows or take up a lot of memory. Then you need to write cycles instead of recursion.
 
 4) Quick Sort. Significantly faster than the selective sort algorithm. The essence of the algorithm: is based on recursion. The base case is an empty list or a list with one element, since they are already sorted. Next, the pivot element of the list is selected. And on the left side of it is a subarray with smaller elements, and on the right side with large ones. For these subarrays, quicksort is again used 
+
+5) Hash Map. Сommonly used data structure. Stores pairs: key-value. Much faster than lists and arrays, returns any value by key almost instantly. However, there is also a worst case Hash map, when the number of collisions increases. In other words, several keys will correspond to one value, thereby slowing down the algorithm. Solution: increase the size of the array.
