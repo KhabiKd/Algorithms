@@ -30,4 +30,14 @@ fun main(args: Array<String>) {
     println(qs.quickSort(listOf(10, 5, 2, 3)))
 
     division()
+
+//  Hash Map
+    val hm = HashMap()
+    println(hm.book)
+    println(hm.book["apple"])
+
+    hm.checkVoter("Tom")
+    hm.checkVoter("Bob")
+    hm.checkVoter("Tom")
+    division()
 }
