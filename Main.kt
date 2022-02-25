@@ -31,8 +31,8 @@ fun main(args: Array<String>) {
 
     division()
 
-//  Hash Map
-    val hm = HashMap()
+//  Hash Mape
+    val hm = HashMape()
     println(hm.book)
     println(hm.book["apple"])
 
@@ -40,4 +40,10 @@ fun main(args: Array<String>) {
     hm.checkVoter("Bob")
     hm.checkVoter("Tom")
     division()
+
+//  Breadth First Search
+    val bfs = BreadthFirstSearch()
+    println(bfs.search("you"))
+    division()
+
 }
