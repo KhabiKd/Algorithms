@@ -13,3 +13,5 @@ Sorting function: Each time we go through the list and look for the minimum (max
 4) Quick Sort. Significantly faster than the selective sort algorithm. The essence of the algorithm: is based on recursion. The base case is an empty list or a list with one element, since they are already sorted. Next, the pivot element of the list is selected. And on the left side of it is a subarray with smaller elements, and on the right side with large ones. For these subarrays, quicksort is again used 
 
 5) Hash Map. Сommonly used data structure. Stores pairs: key-value. Much faster than lists and arrays, returns any value by key almost instantly. However, there is also a worst case Hash map, when the number of collisions increases. In other words, several keys will correspond to one value, thereby slowing down the algorithm. Solution: increase the size of the array.
+
+6) Breadth First Search. It all starts with creating a queue. The algorithm first checks the nearest neighbors to the original key. After bypassing all, the algorithm goes through all the neighbors of already checked neighbors. A new list is also created, where keys that have already been checked will fit.
